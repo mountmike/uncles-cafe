@@ -1,3 +1,5 @@
+
+
 body {
   margin: 0;
   background-image: -webkit-linear-gradient(left, tomato, papayawhip);
@@ -47,8 +49,10 @@ a {
 
 .container {
   width: 900px;
-  margin: auto;
+  min-width: 600px;
+  margin: 100px auto;
   border: 3px white solid;
+ 
 }
 
 .item {
@@ -119,12 +123,15 @@ footer div {
   justify-content: center;
   align-items: center;
   background-color: white;
+  
+
 }
 
 .bottom div {
   background-color: white;
   color: tomato;
   padding: 50px;
+  
 }
 
 .story-container {
@@ -148,3 +155,34 @@ footer div {
 .born {
   flex: 1;
 }
+
+.boxes {
+  padding: 0 100px 100px 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+
+.boxes img {
+  max-width: 500px;
+  max-height: 500px;
+  position: relative;
+
+  
+  
+}
+
+.cover-img {
+  object-fit: cover;
+  height: 500px;
+  width: auto;
+}
+
+#box-cap {
+  color: tomato;
+  text-align: center;
+}
+
